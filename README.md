@@ -16,6 +16,7 @@ and work together.
 
 ## Overview
 
+![Image of Workflow](https://github.com/praveen9800/microservice-sample-msf4j/blob/master/accountinquiry_msf4j.png)
 
 
 ## Launcher
