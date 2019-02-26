@@ -36,3 +36,22 @@ public class TransportConfiguration {
 
 }
 ```
+
+## To test the sample
+
+We can use the cURL command line tool for testing. Also we can use REST client or Postman client too.
+
+```
+curl http://localhost:8090/bank/accounts/1011
+```
+
+## Sample Response
+
+```
+{
+  "accNo" : 101,
+  "accName" : "AAAAA",
+  "amount" : 10000,
+  "currency" : "INR"
+}
+```
