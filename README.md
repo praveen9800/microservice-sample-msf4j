@@ -6,13 +6,13 @@ and work together.
 
 ## Dependency
 
-
+```
 <dependency>
 	<groupId>org.wso2.msf4j</groupId>
 	<artifactId>msf4j-spring</artifactId>
 	<version>2.0.0</version>
 </dependency>
-
+```
 
 ## Overview
 
