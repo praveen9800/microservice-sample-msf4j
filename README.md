@@ -16,8 +16,23 @@ and work together.
 
 ## Overview
 
+The sample microservice is a Account Inquiry service which will take account number as input and fetch the account details from MySql database and send the response to client.
+
 ![Image of Workflow](https://github.com/praveen9800/microservice-sample-msf4j/blob/master/accountinquiry_msf4j.png)
 
 
-## Launcher
+## Configuring MSF4J through Spring
 
+### 1. Changing HTTP port
+
+```
+@Configuration
+public class TransportConfiguration {
+
+    @Bean
+    public HTTPTransportConfig http(){
+         return new HTTPTransportConfig(8090);
+     }
+
+}
+```
