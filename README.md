@@ -1,7 +1,7 @@
 # Microservice Sample project using MSF4J framework
 
 MSF4J - Microservices Framework for Java is a WSO2 framework for developing microservices. It is compatible with other spring based jars
-and work together.
+and work together. 
 
 
 ## Dependency
@@ -13,13 +13,6 @@ and work together.
 	<version>2.0.0</version>
 </dependency>
 ```
-
-## Overview
-
-The sample microservice is a Account Inquiry service which will take account number as input and fetch the account details from MySql database and send the response to client.
-
-![Image of Workflow](https://github.com/praveen9800/microservice-sample-msf4j/blob/master/accountinquiry_msf4j.png)
-
 
 ## Configuring MSF4J through Spring
 
@@ -36,6 +29,19 @@ public class TransportConfiguration {
 
 }
 ```
+
+For more information about MSF4J, please refer the below link.
+
+```
+https://wso2.com/products/microservices-framework-for-java/
+```
+
+## Overview
+
+The sample microservice is a Account Inquiry service (Banking) which will take account number as input and fetch the account details of a particular customer from MySql database and send the response to client.
+
+![Image of Workflow](https://github.com/praveen9800/microservice-sample-msf4j/blob/master/accountinquiry_msf4j.png)
+
 
 ## To test the sample
 
