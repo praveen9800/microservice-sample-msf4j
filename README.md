@@ -61,3 +61,7 @@ curl http://localhost:8090/bank/accounts/1011
   "currency" : "INR"
 }
 ```
+
+## Disclaimer
+
+This is not an official HCL ERS product.
